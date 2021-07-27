@@ -1,3 +1,41 @@
-# Azure Functions (.NET Core 3.1)
+# Azure Functions
 
-- Blob Trigger (A C# function that will be run whenever a blob is added to a specific container)
+A C# project with multiple `azure functions` triggers examples.
+
+- Visual Studio 2022 Preview
+- Framework .NET Core 3.1
+
+## Projects / Functions
+
+- Blob Trigger
+- `TODO` Service Bus Queue trigger
+- `TODO` Http trigger
+- `TODO` Timer trigger
+- `TODO` Queue trigger
+- `TODO` Cosmos DB trigger
+
+## 1 - Blob Trigger
+
+**AzureFunctionTriggerBlogStorage** is the project name in the solution.
+
+### Setup
+
+Create **local.settings.json**
+
+```json
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName={AccountName};AccountKey={AccountKey};BlobEndpoint={BlobEndpoint};TableEndpoint={TableEndpoint};QueueEndpoint={QueueEndpoint};FileEndpoint={FileEndpoint}",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+}
+```
+
+### Run the project
+
+Compile and run: If using Visual Studio, just press F5 to compile and run **AzureFunctionTriggerBlogStorage**
+
+### 
+
+## Contribute
+Contributions are welcome.
