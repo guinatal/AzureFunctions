@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31521.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionTriggerBlogStorage", "AzureFunctionTriggerBlogStorage\AzureFunctionTriggerBlogStorage.csproj", "{2E2A0060-9DCC-478C-80BE-9E3677B8DDAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionTriggerServiceBus", "AzureFunctionTriggerServiceBus\AzureFunctionTriggerServiceBus.csproj", "{38442D48-52C7-4A22-AC58-F740B55524DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2E2A0060-9DCC-478C-80BE-9E3677B8DDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E2A0060-9DCC-478C-80BE-9E3677B8DDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E2A0060-9DCC-478C-80BE-9E3677B8DDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38442D48-52C7-4A22-AC58-F740B55524DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38442D48-52C7-4A22-AC58-F740B55524DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38442D48-52C7-4A22-AC58-F740B55524DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38442D48-52C7-4A22-AC58-F740B55524DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

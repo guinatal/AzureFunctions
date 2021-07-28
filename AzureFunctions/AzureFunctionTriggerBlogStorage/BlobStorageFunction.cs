@@ -6,12 +6,15 @@ using Microsoft.Extensions.Logging;
 
 namespace AzureFunctionTriggerBlogStorage
 {
-    public static class Function1
+    public static class BlobStorageFunction
     {
-        [FunctionName("Function1")]
+        [FunctionName("BlobStorageFunction")]
         public static void Run([BlobTrigger("azure-function-test-container/{name}", Connection = "")]Stream myBlob, string name, ILogger log)
         {
             log.LogInformation($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
+
+            // todo: send a message through service bus from here
+
         }
     }
 }
