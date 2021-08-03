@@ -8,7 +8,7 @@ A C# project with multiple `azure functions` triggers examples.
 ## Projects / Functions
 
 - Blob Trigger
-- `In Progress` Service Bus Queue trigger
+- `In Progress` Service Bus trigger
 - `TODO` Http trigger
 - `TODO` Timer trigger
 - `TODO` Queue trigger
@@ -16,7 +16,7 @@ A C# project with multiple `azure functions` triggers examples.
 
 ## 1 - Blob Trigger
 
-**AzureFunctionTriggerBlogStorage** is the project name in the solution.
+The **NewDocument** function is triggered when a new file is dropped into the blob container.
 
 ### Setup
 
@@ -33,9 +33,13 @@ Create **local.settings.json**
 
 ### Run the project
 
-Compile and run: If using Visual Studio, just press F5 to compile and run **AzureFunctionTriggerBlogStorage**
+Compile and run: If using Visual Studio, just press F5 to compile and run **AzureFunctionTriggerBlobStorage**
 
-## 2 - Blob Trigger
+## 2 - Service Bus trigger
+
+- PDFHandlerFunction
+- CSVHandlerFunction
+- NAHandlerFunction
 
 `In Progress`
 
