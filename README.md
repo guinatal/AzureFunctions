@@ -8,7 +8,7 @@ A C# project with multiple `azure functions` triggers examples.
 ## Projects / Functions
 
 - Blob Trigger
-- `TODO` Service Bus Queue trigger
+- `In Progress` Service Bus Queue trigger
 - `TODO` Http trigger
 - `TODO` Timer trigger
 - `TODO` Queue trigger
@@ -35,7 +35,9 @@ Create **local.settings.json**
 
 Compile and run: If using Visual Studio, just press F5 to compile and run **AzureFunctionTriggerBlogStorage**
 
-### 
+## 2 - Blob Trigger
+
+`In Progress`
 
 ## Contribute
 Contributions are welcome.
